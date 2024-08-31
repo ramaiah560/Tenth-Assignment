@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="test.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Assessment Dashboard</h1>
+    </header>
+    <main>
+        <section id="create-assessment">
+            <button id="createAssessmentBtn">Create New Assessment</button>
+        </section>
+        <section id="search-filter">
+            <input type="text" id="searchBar" placeholder="Search assessments...">
+            <div id="filters">
+                <label for="typeFilter">Type:</label>
+                <select id="typeFilter">
+                    <option value="">All</option>
+                    <option value="quiz">Quiz</option>
+                    <option value="assignment">Assignment</option>
+                    <option value="survey">Survey</option>
+                </select>
+                <label for="sortFilter">Sort By:</label>
+                <select id="sortFilter">
+                    <option value="date">Date</option>
+                    <option value="popularity">Popularity</option>
+                    <option value="completion">Completion Rate</option>
+                </select>
+            </div>
+    
